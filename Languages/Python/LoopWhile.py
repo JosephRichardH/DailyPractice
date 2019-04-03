@@ -1,14 +1,17 @@
 Word=input('Input your word please: ')
 WordLength=len(Word)
+print(WordLength)
 TotalAlphaberE=0
 counter=0
 while counter<WordLength:
-    if Word[counter] in ['e','E']:
+    print(Word[counter])
+    if Word[counter] in ['a','b']:
         TotalAlphaberE += 1
     else:
         pass
     counter=counter+1
 print (TotalAlphaberE) 
+print (counter) 
 
 # this looping is a 'while' loop, which had a definite final condition when 'counter' reaches WordLength
 # As it want to command to do until condition in while is satisfied
